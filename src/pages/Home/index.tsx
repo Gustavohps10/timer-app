@@ -5,6 +5,7 @@ import {
   HomeContainer,
   Separator,
 } from './styles'
+import { Button } from '../../components/Button'
 
 export function Home() {
   return (
@@ -28,10 +29,10 @@ export function Home() {
           <span>0</span>
         </CountDownContainer>
 
-        <button type="submit">
+        <Button type="submit">
           <Play size={24} />
-          Start
-        </button>
+          Começar
+        </Button>
       </form>
     </HomeContainer>
   )
