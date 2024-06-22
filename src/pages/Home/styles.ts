@@ -69,6 +69,11 @@ const BaseInput = styled.input`
     color: ${({ theme }) => theme['gray-500']};
     text-align: center;
   }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
 `
 
 export const TaskInput = styled(BaseInput)`
