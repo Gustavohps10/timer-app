@@ -12,7 +12,7 @@ export const LayoutContainer = styled.div`
   flex-direction: column;
 
   position: relative;
-  left: 50%;
-  top: 50vh;
-  transform: translate(-50%, -50%);
+  left: 0;
+  margin: 0 auto;
+  margin-top: 4rem;
 `
