@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 
 export const LayoutContainer = styled.div`
-  max-width: 118.4rem;
-  height: calc(100vh - 16rem);
-  margin: 8rem auto;
+  width: 118.4rem;
+  max-width: 90vw;
   padding: 4rem;
 
   background-color: ${({ theme }) => theme['gray-800']};
@@ -11,4 +10,9 @@ export const LayoutContainer = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  position: relative;
+  left: 50%;
+  top: 50vh;
+  transform: translate(-50%, -50%);
 `
